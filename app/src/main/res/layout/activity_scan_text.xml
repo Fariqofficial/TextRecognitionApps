@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    tools:context=".ScanTextActivity">
+
+    <ImageView
+        android:id="@+id/imgCapture"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/imgCapture"
+        android:gravity="center"
+        android:text="Hasil Text :"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/edtResult"
+        android:layout_below="@id/textResult"
+        android:textColor="@color/white"
+        android:background="@drawable/edittext_shape"
+        android:height="200dp"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:padding="12dp"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content"/>
+
+    <TableRow
+        android:id="@+id/tableButton"
+        android:layout_below="@id/edtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnCapture"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button_shape"
+            app:backgroundTint="@color/blueLightColor"
+            android:text="Capture"/>
+
+        <Button
+            android:id="@+id/btnDetect"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            app:backgroundTint="@color/greenColor"
+            android:text="Detect Text"/>
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_below="@id/tableButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_shape"
+        app:backgroundTint="@color/yellowColor"
+        android:text="Save Text"/>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "855748994894",
+    "project_id": "text-recognition-apps-cdd1f",
+    "storage_bucket": "text-recognition-apps-cdd1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855748994894:android:44dc9d5a01ab744329201f",
+        "android_client_info": {
+          "package_name": "it.ac.riqsudev.textrecognationapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855748994894-1ll8r5gvkj4qvpugdq6duts3bi2j1d3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfmYweFHUWkvWRsVt4Uppk2ICJWvQUAgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855748994894-1ll8r5gvkj4qvpugdq6duts3bi2j1d3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
